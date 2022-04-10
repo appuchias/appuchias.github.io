@@ -105,8 +105,8 @@ author:
   avatar           : "/assets/images/avatar.png"
   bio              : "Code writer. Student entering this world."
   location         : "Spain"
-  email            : "info@appu.ltd"
-  uri              :
+  email            : "contact@appu.ltd"
+  uri              : "https://appu.ltd"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -118,7 +118,7 @@ author:
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "appu.ltd"
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
