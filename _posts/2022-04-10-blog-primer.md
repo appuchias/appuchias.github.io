@@ -8,9 +8,9 @@ classes: wide
 #  teaser: /assets/images/bbsctf-evilconneck/logo.png
 #  teaser_home_page: true
 categories:
-  - misc
+  - Misc
 tags:
-  - misc
+  - Misc
 ---
 
 # The first post
