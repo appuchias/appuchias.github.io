@@ -6,3 +6,11 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+html {
+    background-color: #181a1b;
+}
+
+nav.greedy-nav {
+    background-color: #0c0d0e;
+}
