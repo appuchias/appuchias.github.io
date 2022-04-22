@@ -13,7 +13,7 @@ tags:
   - Misc
 ---
 
-# The first post
+## The first post
 
 It is always difficult to start something new: new habits, a new job or maybe a new relationship. But I hope that this blog I'm deciding to start writing on from today once becomes a reference page for someone's projects, inspiration or entertainment. I hope this becomes useful for someone that just wants to get answers that happen to be here, quickly.
 
