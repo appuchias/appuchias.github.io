@@ -233,6 +233,10 @@ The easiest one to install and configure and that works in most systems is `ufw`
         sudo ufw reset
         ```
 
+- ### GUI
+
+    There is a graphical user interface for those who prefer to manage their firewall using a graphical application. To use it, just install the package `gufw`
+
 ## References
 
 - [NetworkChuck's video](https://www.youtube.com/watch?v=ZhMw53Ud2tY).
