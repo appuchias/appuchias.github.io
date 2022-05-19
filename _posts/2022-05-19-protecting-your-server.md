@@ -5,7 +5,7 @@ excerpt: 'General practices to avoid the most common and easiest attacks by patc
 date: 2022-05-19
 classes: wide
 header:
-teaser: /assets/images/20220519-protecting-your-server/firewall.png
+teaser: /assets/images/2022-05-19-protecting-your-server/firewall.png
 teaser_home_page: true
 categories:
 - Server admin
