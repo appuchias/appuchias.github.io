@@ -139,9 +139,8 @@ You can find the default config for Arch Linux [here](https://gist.githubusercon
 
 1. ### Removing password authentication and enabling public/private keys
 
-    The relevant lines for this on a default config are lines `32`, `37`, `41`, `57` and `58`.
+    The relevant lines for this on a default config are lines `32`, `41`, `57` and `58`.
     - `PermitRootLogin` should be set to `no` (Blocks root login attempts).
-    - `PubkeyAuthentication` to `yes` (Allow authentication using keys).
     - `AuthorizedKeysFile` to `.ssh/authorized_keys`, to allow ssh to auto add keys.
     - `PasswordAuthentication` to `no` (**Important note on this**: Please register a key in the machine **before** enbaling this. Otherwise you will be **unable to log back in**!).
     - And `PermitEmptyPasswords` to `no` (I'm not completely sure that this explicit config servers any purpose if passwords are disabled but it's an extra measure in case they are left enabled).
