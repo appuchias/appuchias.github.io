@@ -116,7 +116,11 @@ This is easier to do in debian-based distros where the package `unattended-upgra
 
     Using cron is discouraged in some aspects as it doesn't have a logging system as good as the other alternatives in this post, and you need to write your code by yourself.
 
-    Add `0 0 * * * /bin/bash apk update && apk upgrade` to your root crontab (using `sudo crontab -e`).
+    Add this to your root crontab (using `sudo crontab -e`).
+
+    ```bash
+    0 0 * * * /bin/bash apk update && apk upgrade
+    ```
 
 - ### Others
 
@@ -208,11 +212,13 @@ The easiest one to install and configure and that works in most systems is `ufw`
         ```bash
         sudo ufw allow ssh
         ```
+
     - If you've changed the SSH port, run:
 
             ```bash
             sudo ufw allow <port>/tcp
             ```
+
   - For any other service that you may need to access from outside your computer in the future, add a rule to ufw to allow incoming connections with the command above.
     The firewall will block by default all incoming connections, so remember to allow all the ones you need.
   - Once you've allowed all the necessary ports, enable UFW with:
@@ -227,33 +233,37 @@ The easiest one to install and configure and that works in most systems is `ufw`
 
   - To see the enabled rules, run:
 
-        ```bash
-        sudo ufw status numbered
-        ```
+    ```bash
+    sudo ufw status numbered
+    ```
+
   - You can delete rules with:
 
-        ```bash
-        sudo ufw delete <number from above command> # Some of the numbers will change after this
-        ```
+    ```bash
+    sudo ufw delete <number from above command> # Some of the numbers will change after this
+    ```
+
   - If you change anything from now, you'll need to reload the firewall for the changes to take effect using:
 
-        ```bash
-        sudo ufw reload
-        ```
+    ```bash
+    sudo ufw reload
+    ```
+
   - To disable the firewall, run:
 
-        ```bash
-        sudo ufw disable
-        ```
+    ```bash
+    sudo ufw disable
+    ```
+
   - You can reset the firewall to its defaults (usually without any rules) with:
 
-        ```bash
-        sudo ufw reset
-        ```
+    ```bash
+    sudo ufw reset
+    ```
 
 - ### GUI
 
-    There is a graphical user interface for those who prefer to manage their firewall using a graphical application. To use it, just install the package `gufw`
+    There is a graphical user interface for those who prefer to manage their firewall using a graphical application. To use it, just install the package `gufw`. Also note that some desktop environments ship a firewall GUI by default (e.g. KDE).
 
 ## References
 
