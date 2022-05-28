@@ -1,16 +1,12 @@
 ---
-layout: single
 title: My blog primer
-excerpt: ""
-date: 2022-04-10
+author: Appuchia
 classes: wide
 #header:
 #  teaser: /assets/images/bbsctf-evilconneck/logo.png
 #  teaser_home_page: true
-categories:
-  - Misc
-tags:
-  - Misc
+categories: [Misc]
+tags: [Misc]
 ---
 
 ## The first post

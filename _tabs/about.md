@@ -4,8 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-
-# Hi, I'm Appu
+## Hi, I'm Appu
 
 My real name is Pablo and I'm currently a student learning useless stuff 'officially' and learning from various topics which make me want to learn more.
 
