@@ -279,4 +279,4 @@ If you're going to expose many different services to the Internet, you may want 
 
 Thanks for reading!
 
-Done with :black_heart: by Appu.
+Done with 🖤 by Appu.
