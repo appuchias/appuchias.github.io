@@ -1,10 +1,6 @@
 ---
 title: My blog primer
 author: Appuchia
-classes: wide
-#header:
-#  teaser: /assets/images/bbsctf-evilconneck/logo.png
-#  teaser_home_page: true
 categories: [Misc]
 tags: [Misc]
 ---

@@ -6,7 +6,7 @@ categories: [Server admin, Linux]
 tags: [Advice, Protection]
 ---
 
-![Post banner](/assets/images/2022-05-19-protecting-your-server/firewall.png)
+![Post banner](/assets/img/2022-05-19-protecting-your-server/firewall.png)
 
 I recently watched a NetworkChuck's video where he explained how to protect your linux server (Dedicated to Ubuntu, but I plan on covering more than just that distro), so I thought that I could do some sort of writeup of the video as well as extend the info that is shown in it.
 
