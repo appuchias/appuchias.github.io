@@ -18,6 +18,4 @@ Thanks for reading this!
 
 ---
 
-Template by [Simon Lemire](https://github.com/slemire/slemire.github.io)
-
 [Coded with 🖤 by Appu.](https://appu.ltd/thanks)
