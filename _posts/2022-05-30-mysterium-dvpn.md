@@ -2,8 +2,8 @@
 title: 'The Mysterium dVPN'
 excerpt: 'A way to monetize your spare bandwidth and earn some money back.'
 date: 2022-05-30 13:30:00 +0200
-categories: ['Linux', 'Utilities']
-tags: ['Blockchain', 'VPN']
+categories: [Linux, Utilities]
+tags: [Blockchain, VPN]
 ---
 
 ![Post banner](/assets/img/2022-05-30-mysterium-dvpn/myst.jpg)
