@@ -40,6 +40,7 @@ If you already have such device, great! Else, you may want to wait as they are c
     You will need to have terminal access to it, either through SSH or with a keyboard and monitor connected.
   
     Once you have it installed, you will need to refresh the package manager's cache and install all available updates to your OS.
+
     ```console
     sudo apt update && sudo apt upgrade -y  # -y makes it not prompt for confirmation. If you have a fresh install, this should't cause any problem.
     ```
@@ -53,7 +54,9 @@ If you already have such device, great! Else, you may want to wait as they are c
     ```console
     grep -qxF 'deb http://ppa.launchpad.net/mysteriumnetwork/node/ubuntu focal main' /etc/apt/sources.list || echo 'deb http://ppa.launchpad.net/mysteriumnetwork/node/ubuntu focal main' | sudo tee -a /etc/apt/sources.list > /dev/null
     ```
+
     However, that command does not verify the author's PGP key, so apt will refuse to install the myst package directly. To fix that, you will need to download the key and add it to APT:
+
     ```console
     gpg --no-default-keyring --keyring ~/.gnupg/mysterium-network-keyring.gpg --keyserver keyserver.ubuntu.com --recv-keys ECCB6A56B22C536D # If this raises an error saying that the directory does not exist, run `mkdir ~/.gnupg`
     sudo mv ~/.gnupg/mysterium-network-keyring.gpg /usr/share/keyrings/
@@ -61,7 +64,7 @@ If you already have such device, great! Else, you may want to wait as they are c
   
     Followed by replacing the last line of `/etc/apt/sources.list` with this one:
 
-    ```
+    ```console
     deb [signed-by=/usr/share/keyrings/mysterium-network-keyring.gpg] http://ppa.launchpad.net/mysteriumnetwork/node/ubuntu focal main
     ```
 
@@ -115,7 +118,6 @@ If you already have such device, great! Else, you may want to wait as they are c
     If you're having problems getting your node running, check out their wiki for more info that I may have missed or not needed [here](https://docs.mysterium.network/for-node-runners/intros-mysterium-node).
 
     Avoid swapping coins as much as you can, as every swap implies a fee.
-
 
 ## Conclusions
 
