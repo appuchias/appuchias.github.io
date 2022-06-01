@@ -2,8 +2,12 @@
 title: 'Protecting your server'
 excerpt: 'General practices to avoid the most common and easiest attacks by patching the most common vulnerabilities.'
 date: 2022-05-19
-categories: [Server admin, Linux]
-tags: [Advice, Protection]
+categories:
+    - "Linux - 0 (newbie)"
+    - Server admin
+tags:
+    - Advice
+    - Protection
 ---
 
 ![Post banner](/assets/img/2022-05-19-protecting-your-server/firewall.png)
