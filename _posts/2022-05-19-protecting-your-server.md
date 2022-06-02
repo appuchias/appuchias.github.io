@@ -99,7 +99,7 @@ This is easier to do in debian-based distros where the package `unattended-upgra
     1. Install the corresponding package. We'll be using [Pacroller](https://github.com/isjerryxiao/pacroller):
 
         ```bash
-        yay -S aur/pacroller
+        yay -S pacroller
         ```
 
     1. Configure your installation.
