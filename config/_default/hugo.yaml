@@ -1,0 +1,13 @@
+# Basics
+title: "Appu's blog"
+baseURL: 'https://blog.appu.ltd/'
+paginate: 10
+theme: "PaperMod"
+languageCode: 'en-us'
+
+# Build settings
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
