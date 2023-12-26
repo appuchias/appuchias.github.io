@@ -1,6 +1,6 @@
 homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...
+    Title: "Appu's blog"
+    Content: Where I post about various topics...
 
 socialIcons: # optional
     - name: "github"
