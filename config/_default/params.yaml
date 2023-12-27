@@ -1,7 +1,49 @@
 homeInfoParams:
     Title: "Appu's blog"
-    Content: Where I post about various topics...
+    Content: Where I post about various topics.
 
-socialIcons: # optional
+socialIcons:
     - name: "github"
       url: "https://github.com/appuchias"
+    - name: "gitlab"
+      url: "https://gitlab.com/appuchia"
+    - name: "littlelink"
+      url: "https://links.appu.ltd"
+
+# Display toggles
+ShowBreadCrumbs: true     # Show post nesting
+ShowCodeCopyButton: true  # Show code copy (Not working?)
+ShowPostNavLinks: true    # Show post suggestions
+ShowReadingTime: true     # Show post reading time
+ShowShareButtons: true    # Show social share buttons
+ShareButtons:             # Customize share buttons
+  - twitter
+  - whatsapp
+  - telegram
+
+# ToC
+showtoc: true
+tocopen: true
+
+# general
+author: "Appuchia"
+cover:
+  linkFullImages: true  # to set the image hyperlink to the highest quality available
+defaultTheme: auto  # to switch between dark or light according to browser theme
+title: "Appu's blog"
+description: Where I post about various topics.
+draft:  # Add mark to draft posts
+
+label:
+  text: "Home"
+  icon: /apple-touch-icon.png
+  iconHeight: 35
+
+fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  keys: ["title", "permalink", "summary", "content"]
