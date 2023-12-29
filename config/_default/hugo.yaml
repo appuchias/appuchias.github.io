@@ -2,8 +2,10 @@
 title: "Appu's blog"
 baseURL: 'https://blog.appu.ltd/'
 paginate: 10
-theme: "PaperMod"
 languageCode: 'en-us'
+theme:
+  - "PaperMod"
+  - "plausible-hugo"
 
 # Build settings
 enableRobotsTXT: true
