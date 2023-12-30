@@ -9,9 +9,9 @@ tags:
     - Utility
     - Blockchain
     - VPN
+cover:
+    image: /img/2022-05-30-mysterium-dvpn/myst.jpg
 ---
-
-![Post banner](/img/2022-05-30-mysterium-dvpn/myst.jpg)
 
 In the last days I set up a node of a decentralized VPN using the Mysterium network. This was mainly to get profits from the Internet bandwidth I don't use and to help provide freedom of speech for those who need it.
 
