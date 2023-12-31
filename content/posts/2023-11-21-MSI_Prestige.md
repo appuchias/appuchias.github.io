@@ -191,3 +191,9 @@ People are not ready for it, but Linux can be as good as or better than Windows 
 I've been using the laptop in class for 3 weeks or so, and it runs MATLAB and RStudio (quite a few linear regressions to process) with no trouble, and the battery lasts easily the whole day of use.
 
 I'm happy with it, would recommend after reading the considerations
+
+---
+
+Thanks for reading!
+
+Done with 🖤 by Appu.
