@@ -87,6 +87,9 @@ sqlite3 db.sqlite3 "PRAGMA journal_mode=WAL; PRAGMA synchronous=1; PRAGMA busy_t
 - [Tom Dyson's talk on DjangoCon Europe 2023](https://www.youtube.com/watch?v=yTicYJDT1zE)
 - [Ben Johnson's talk on GopherCon 2021](https://www.youtube.com/watch?v=XcAYkriuQ1o)
 
+And [another nice post](https://cj.rs/blog/sqlite-pragma-cheatsheet-for-performance-and-consistency/)
+covering similar configurations that I found after writing mine.
+
 ---
 
 Thanks for reading!
