@@ -3,10 +3,10 @@ title: MSI Prestige 14H B12U
 excerpt: A review based in a week of use
 date: 2023-11-21
 categories:
-  - Products
+    - Products
 tags:
-  - Reviews
-  - Utility
+    - Reviews
+    - Utility
 cover:
     image: '/images/2023-11-21-msi_prestige/laptop-side.png'
 ---
