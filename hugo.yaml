@@ -9,7 +9,7 @@ theme:
 
 # Build settings
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: false
 buildExpired: false
 
