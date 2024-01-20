@@ -8,7 +8,7 @@ tags:
     - Reviews
     - Utility
 cover:
-    image: '/images/2023-11-21-msi_prestige/laptop-side.png'
+    image: '/images/2023-11-21_msi_prestige/laptop-side.png'
 ---
 
 I recently bought this laptop and I wanted to test it to see if it fitted me, so I thought I would publish the results in case it helps anyone with their decisions.
