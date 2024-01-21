@@ -83,15 +83,15 @@ If you already have such device, great! Else, you may want to wait as they are c
     If you're already connected, great! You're half the way there.
 
     Press `Start node setup` and you will be presented with a screen like this:
-    ![Setup image 01](/img/2022-05-30_mysterium-dvpn/setup01.png)
+    ![Setup image 01](/image/2022-05-30_mysterium-dvpn/setup01.png)
 
     Now it's the time to pay to be registered. Follow the instructions on the web, either paying a cryptocurrency or with a fiat coin.
 
     After you pay, you will be presented with the screen that asks you to enter your withdrawal account. This should be the account where you want your earnings to be deposited. (I leave there my address in case you want to send me something :P)
-    ![Setup image 02](/img/2022-05-30_mysterium-dvpn/setup02.png)
+    ![Setup image 02](/image/2022-05-30_mysterium-dvpn/setup02.png)
 
     Then you will be prompted for a password to acces your admin panel, and after a short wait you will be redirected to your main dashboard, which should look like this:
-    ![Setup image 03](/img/2022-05-30_mysterium-dvpn/setup03.png)
+    ![Setup image 03](/image/2022-05-30_mysterium-dvpn/setup03.png)
 
 1. ### MystNodes
 
@@ -100,10 +100,10 @@ If you already have such device, great! Else, you may want to wait as they are c
     This API key wil allow you to add your node to [their admin panel](https://mystnodes.com/nodes), where you can see you nodes' status and access their admin panels.
 
     To add it to your node, go to the settings tab and paste it in the top right menu.
-    ![Setup image 04](/img/2022-05-30_mysterium-dvpn/setup04.png)
+    ![Setup image 04](/image/2022-05-30_mysterium-dvpn/setup04.png)
 
     Then, when you access your admin panel, you should see something like this, showing that your node has been recognized. It may take a few minutes to be set as online, so don't worry if it isn't online yet.
-    ![Setup image 05](/img/2022-05-30_mysterium-dvpn/setup05.png)
+    ![Setup image 05](/image/2022-05-30_mysterium-dvpn/setup05.png)
 
 1. ### Terms of the dashboard
 
