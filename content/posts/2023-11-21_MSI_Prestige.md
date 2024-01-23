@@ -172,6 +172,7 @@ It lasted more than 7h. It was around 7h5min.
 >
 > - Light use (Mostly following an in-person presentation with Okular): 5-6h.
 > - Slightly heavier use ("Lab" classes coding in Python/MATLAB/R): 4h with 10-15% remaining.
+> - Even heavier use (multitasking while powering a 5V device through USB-A and capturing packets with Wireshark): Around 4h.
 
 # Current setup
 
@@ -181,6 +182,7 @@ I have the 1920x1200 16:10 screen with no scaling enabled, and it's quite decent
 
 I'm overall happy with the end result.
 The laptop works great and it isn't loud even when under sustained full load.[^2]
+
 The keyboard gets a bit warm after some time but it isn't uncomfortable.
 
 [^2]: **Update (2024-01-23)**: It now sometimes keeps the fan on while doing some light tasks, but I don't think is something to worry about, probably just what happens when you have it on your lap.
