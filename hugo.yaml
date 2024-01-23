@@ -71,7 +71,7 @@ params:
 
   # Display toggles
   ShowBreadCrumbs: true     # Show post nesting
-  ShowCodeCopyButton: true  # Show code copy (Not working?)
+  ShowCodeCopyButtons: true  # Show code copy (Not working?)
   ShowPostNavLinks: true    # Show post suggestions
   ShowReadingTime: true     # Show post reading time
   ShowShareButtons: true    # Show social share buttons
