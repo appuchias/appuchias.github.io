@@ -1,6 +1,6 @@
 ---
 title: 'Protecting your server'
-excerpt: 'General practices to avoid the most common and easiest attacks by patching the most common vulnerabilities.'
+description: 'General practices to avoid the most common and easiest attacks by patching the most common vulnerabilities.'
 date: 2022-05-19
 categories:
     - "Linux - 0 (newbie)"

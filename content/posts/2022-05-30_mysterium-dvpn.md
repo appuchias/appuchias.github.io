@@ -1,6 +1,6 @@
 ---
 title: 'The Mysterium dVPN'
-excerpt: 'A way to monetize your spare bandwidth and earn some money back.'
+description: 'A way to monetize your spare bandwidth and earn some money back.'
 date: 2022-05-30
 categories:
     - "Linux - 1 (basic)"
