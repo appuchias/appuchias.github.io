@@ -1,6 +1,6 @@
 ---
 title: MSI Prestige 14H B12U
-excerpt: A review based in a week of use
+description: A review based in around a month of use
 date: 2023-11-21
 categories:
     - Products
@@ -48,7 +48,9 @@ I bought this laptop for around 920€ in November 2023.
 The packaging is very nice, although everything is in plastic bags.
 I'd have preferred everything to use paper or cardboard packaging.
 
-The version I bought came without an OS, so after copying the latest Windows 11 installer to my Ventoy drive and disabling Secure Boot in the BIOS, I booted from the USB drive and installed Windows.
+The version I bought came without an OS[^1], so after copying the latest Windows 11 installer to my Ventoy drive and disabling Secure Boot in the BIOS, I booted from the USB drive and installed Windows.
+
+[^1]: Actually it had FreeDOS but I don't really know anything about it.
 
 > Note: The keys to enter the BIOS and Boot Menu on this laptop are `Delete` and `F11`, respectively.
 
@@ -83,16 +85,17 @@ No messages were logged to `dmesg` when it stopped working, so I didn't explore 
 
 I had almost no issues.
 
-I used archinstall to start faster and created a system with awesomewm and KDE in a few hours.
+I used archinstall to start faster and created a system with awesomewm and KDE in a bit over an hour.
 The wireless module was available from the live USB so it was easy to configure the network either with wpa_supplicant or iwconfig. ([Official Arch Wiki page on wireless network config](https://wiki.archlinux.org/title/Network_configuration/Wireless))
 
-Same issue with the trackpad. Only this time I searched for some info online and found similar problems from another MSI laptop (I can't find where it was from). I'll detail the solution later.
+Same issue with the trackpad. Only this time I searched for some info online and found similar problems from another MSI laptop (I can't find where it was from).
+I'll detail the solution later.
 
 ## Thoughts
 
 Windows is usually shown as the "Just works" OS, but Ubuntu was much easier and quicker to install (and it doesn't spy me).
 
-I don't know if the problem is that the laptop is recent and both kernels don't have the base drivers yet, but it has a 12th gen processor that launched Q1 2022 and we are in Q4 2023, so I don't know.
+I don't know if the problem is that the laptop is recent and both kernels don't have the base drivers yet, but it has a 12th gen processor that launched Q1 2022 and we are in Q4 2023, so IMO it's been more than enough time.
 
 It's surprising that the distro I had less trouble with was Arch, I expected it to be a bit more of a headache.
 
@@ -163,34 +166,51 @@ I ran it in awesomewm with the exact same conditions as the other 2 times, but w
 
 It lasted more than 7h. It was around 7h5min.
 
+> #### Update (2024-01-23)
+>
+> After some time using the laptop, the battery duration numbers for typical use are the following:
+>
+> - Light use (Mostly following an in-person presentation with Okular): 5-6h.
+> - Slightly heavier use ("Lab" classes coding in Python/MATLAB/R): 4h with 10-15% remaining.
+
 # Current setup
 
-I'm currently running Arch with AwesomeWM (and KDE as a backup in case I need something in Wayland), with the default kernel (I tried the zen kernel and it was similar but it required the Nvidia DKMS driver and recompiling, so I left it).
+I'm currently running Arch with AwesomeWM (and KDE as a backup in case I need something in Wayland), with the default kernel (I tried the zen kernel and it was similar but it required the Nvidia DKMS driver and recompiling, so I removed it).
 
-I have the 1920x1200 16:10 screen with no scaling enabled, and it is decent.
+I have the 1920x1200 16:10 screen with no scaling enabled, and it's quite decent, not tiny but definitely in the small size.
 
 I'm overall happy with the end result.
-The laptop works great and it isn't loud even when under sustained full load.
+The laptop works great and it isn't loud even when under sustained full load.[^2]
 The keyboard gets a bit warm after some time but it isn't uncomfortable.
+
+[^2]: **Update (2024-01-23)**: It now sometimes keeps the fan on while doing some light tasks, but I don't think is something to worry about, probably just what happens when you have it on your lap.
 
 # Other considerations
 
-A spare mouse and wireless adapter will be handy if you decide to buy this laptop.
-It works really nice but default drivers aren't ready (as of now).
+**A spare mouse and wireless adapter will be needed** if you decide to buy this laptop to use Windows.
+It runs really nice but default drivers aren't ready (as of now).
+
+## Touchpad problem
 
 The problems with the touchpad ended being the PCI Power Management configuration.
 It was solved after disabling it for the NVIDIA graphics card.
 I wrote a full solution [here](https://unix.stackexchange.com/a/765596/498196).
 
+If you need more help with configuring it, I may be able to help you :) (contact me [in any of these ways](https://links.appu.ltd/?utm_source=Blog))
+
 # Final opinion
 
 To sum up, I won't use Windows again on a laptop.
 
-People are not ready for it, but Linux can be as good as or better than Windows after the same time configuring it to your likings.
+People are not ready to hear it, but Linux can be as good as or better than Windows given the same time to configure it to your likings (something usually easier on Linux).[^3]
 
-I've been using the laptop in class for 3 weeks or so, and it runs MATLAB and RStudio (quite a few linear regressions to process) with no trouble, and the battery lasts easily the whole day of use.
+[^3]: I’d just like to interject for a moment. What you’re refering to as Linux, is in fact, GNU/Linux, or as I’ve recently taken to calling it, GNU plus Linux.
+    Linux is not an operating system unto itself, but rather another free component of a fully functioning GNU system made useful by the GNU corelibs, shell utilities and vital system components comprising a full OS as defined by POSIX.
+    (...)
 
-I'm happy with it, would recommend after reading the considerations
+I've been using the laptop in class for 3 weeks or so, and it runs MATLAB and RStudio with no trouble, and the battery lasts easily the whole day of use (while in class).
+
+I'm happy with it and I would recommend it after reading the considerations.
 
 ---
 
