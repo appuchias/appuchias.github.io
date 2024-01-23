@@ -3,6 +3,7 @@ title: My blog primer
 author: Appuchia
 categories: [Misc]
 tags: [Misc]
+searchHidden: true
 ---
 
 ## The first post
