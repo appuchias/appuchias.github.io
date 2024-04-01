@@ -78,6 +78,8 @@ To use a better SPICE client, simply add `--display=spice`.
 This will launch a different app to view the VM's screen output.
 To release the mouse and keyboard from this app, you'll need to press `SHIFT+F12`.
 
+It will give the VM (at least in my machine) a 16GB qcow2 disk, 4 cores and 8GB of RAM.
+
 ### Installation
 
 It'll be better if you use Arch installed rather than the live ISO, so once you
@@ -130,6 +132,43 @@ To remove the notice (DO IT ONLY IF YOU'RE SURE IT MAY HAVE CHANGED, WORRY OTHER
 run `ssh-keygen -R [localhost]:22220`.
 
 ## Configuring and workflow
+
+I created this fish function to start the VM without a display, connect to it
+through SSH, and kill it once you end the SSH session, which turns it off.
+
+It uses `~/VMs/QuickEMU/` as the base path for existing VMs.
+
+```fish
+function quickvm -d "Start a QuickEMU VM from anywhere"
+  set vm_name $argv[1]
+
+  # Set the user
+  if test $argv[2]
+    set user $argv[2]
+  else
+    set user YOUR_USER_HERE
+  end
+
+  cd ~/VMs/QuickEMU/
+
+  quickemu --vm $vm_name.conf --display none; ssh-keygen -R [localhost]:22220; ssh $user@localhost -p 22220; cat $vm_name/$vm_name.pid | xargs kill
+
+  cd -
+end
+```
+
+QuickEMU is smart enough to only start the VM if it isn't already running, so
+don't worry if you run it twice.
+
+It removes the stored SSH keys for `localhost:22220` every time it runs, which
+may be unsafe depending on your needs and environment, so change it as you see fit.
+This implies that you'll need to type "yes" on every connection, which can mess
+with automated scripts.
+
+To avoid having to type your guest password every time you start the VM, you can
+run `ssh-copy-id -p 22220 user@localhost` from your host when the VM is running
+to copy your SSH key to the VM's authorized keys list.
+This will come handy when connecting from VSCode.
 
 ...
 
