@@ -1,5 +1,6 @@
 ---
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+description: ''
 author: Appuchia
 date: {{ .Date }}
 categories:
