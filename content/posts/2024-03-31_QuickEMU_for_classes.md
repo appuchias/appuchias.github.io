@@ -53,6 +53,8 @@ quickemu --vm <.conf file>
 
 You can reference both commands' options using `--help`.
 
+There's also an official GUI application available [here](https://github.com/quickemu-project/quickgui).
+
 ## What I needed
 
 I needed to install Julia, but not only Julia.
@@ -133,6 +135,8 @@ run `ssh-keygen -R [localhost]:22220`.
 
 ## Configuring and workflow
 
+### Configuration
+
 I created this fish function to start the VM without a display, connect to it
 through SSH, and kill it once you end the SSH session, which turns it off.
 
@@ -170,7 +174,48 @@ run `ssh-copy-id -p 22220 user@localhost` from your host when the VM is running
 to copy your SSH key to the VM's authorized keys list.
 This will come handy when connecting from VSCode.
 
-...
+Another recommendation is to create a SSH key in the VM (`ssh-keygen -t ed25519`
+for an elliptic-curve key), and then adding it to your GitHub associated SSH keys
+[here](https://github.com/settings/keys).
+This will allow you to clone your private repos and push commits easily, just
+make sure to use the git URL instead of the HTTPS one.
+
+Don't forget to set your git `user.name` and `user.email` configs!
+```shell
+git config --global user.name NAME # Also user.email
+```
+
+Another option is to use the shared folder QuickEMU creates, although I haven't
+tried it. In theory it should work fine and you could commit from your host.
+
+### Workflow
+
+The whole point of this setup is running software you don't want in your computer
+inside a VM to keep things separate. And finally it's the time to do it.
+
+If SSH is enough for you, this may be all you need to start working!
+Install whatever software you need and go ahead.
+
+If you want to use VSCode, you need some more things, mainly installing the SSH
+remote extension in VSCode. [Here's a link](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh).
+
+Once installed, you'll see the remote icon on the bottom left of your screen.
+It should look like 2 little arrows pointing at each other, someting like ><.
+
+Press it and then select "Connect Current Window to Host" or "Connect to Host",
+the latter creating a new window.
+Then choose `QuickVM` if you configured it in `~/.ssh/config` or type the address
+at the top.
+
+There might appear more popups, but they should be straight-forward.
+
+After it connects, you're in!
+Select the folder you want to work in or clone a repo and start coding as you
+normally would.
+
+The only difference you will find is that you'll need to install the extensions
+again in the remote machine, but you can do it from your VSCode app, just choosing
+"Install in SSH: QuickVM" instead of simply "Install" for new extensions.
 
 ---
 
