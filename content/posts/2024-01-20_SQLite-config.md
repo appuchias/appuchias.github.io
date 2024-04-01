@@ -1,9 +1,10 @@
 ---
 title: 'SQLite configuration tips'
+desciption: 'Some tips for SQLite in prod'
 author: Appuchia
 date: 2024-01-20
 categories:
-  - ...
+  - Development
 tags:
   - DB
 #cover:
