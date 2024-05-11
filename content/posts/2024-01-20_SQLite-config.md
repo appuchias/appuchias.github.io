@@ -3,6 +3,7 @@ title: 'SQLite configuration tips'
 desciption: 'Some tips for SQLite in prod'
 author: Appuchia
 date: 2024-01-20
+lastmod: 2024-05-11
 categories:
   - Development
 tags:
@@ -81,6 +82,15 @@ For a database stored in `db.sqlite3`:
 ```shell
 sqlite3 db.sqlite3 "PRAGMA journal_mode=WAL; PRAGMA synchronous=1; PRAGMA busy_timeout=5000; PRAGMA foreign_keys=ON;"
 ```
+
+# Other important commands
+
+Some other useful commands that can be used in the SQLite shell:
+
+- `VACUUM;` - Rebuilds the DB file, useful to shrink it after deletions. (Reclaims disk space)
+- `ANALYZE;` - Updates the query planner's statistics.
+- `PRAGMA integrity_check;` - Checks the integrity of the DB.
+- `PRAGMA foreign_key_check;` - Checks the FK constraints.
 
 # References
 
