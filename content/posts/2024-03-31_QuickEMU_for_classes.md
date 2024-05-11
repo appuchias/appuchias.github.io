@@ -3,6 +3,7 @@ title: 'QuickEMU+SSH for school-related projects'
 description: 'Install what you need without messing up your OS'
 author: Appuchia
 date: 2024-03-31
+lastmod: 2024-05-11
 categories:
   - Development
   - Class
