@@ -12,7 +12,6 @@ tags:
   - VSCode
 # cover:
 #     image: '/images/2024 03 31_QuickEMU_for_classes'
-draft: true
 ---
 
 I recently had to install some software in my computer that I knew would mess
@@ -33,6 +32,8 @@ pleased with it.
 
 This post covers my setup, using VSCode (for in-class simultaneous editing), the fish shell and Arch Linux.
 If you're running any other setup, you'll need to adapt some aspects to how you do things.
+
+> 2024-05-11: I'm now using zsh instead of fish, but the function I created for fish can be easily adapted to zsh. I added the zsh equivalent after the fish function.
 
 ## What is QuickEMU
 
@@ -161,6 +162,34 @@ function quickvm -d "Start a QuickEMU VM from anywhere"
 end
 ```
 
+> 2024-05-11: Here's the zsh equivalent for the function above:
+> ```zsh
+> quickvm() {
+>     export vm_name=$argv[1]
+>     export user=$(whoami)
+> 
+>     # if [ -n "$argv[2]" ]; then
+>     #     export user=$argv[2]
+>     # fi
+> 
+>     cd $QUICKEMU_DIR
+> 
+>     # Headless VM
+>     quickemu --vm $vm_name.conf --display none
+> 
+>     # SSH into the VM
+>     ssh-keygen -R '[localhost]:22220'
+>     ssh $user@localhost -p 22220
+> 
+>     # Kill the VM
+>     cat $vm_name/$vm_name.pid | xargs kill
+> }
+> ```
+>
+> This could be improved, but it works for now.
+>
+> Also, I'm using the `QUICKEMU_DIR` variable to store the path to the VMs. (`~/VMs/QuickEMU/` in the fish function)
+
 QuickEMU is smart enough to only start the VM if it isn't already running, so
 don't worry if you run it twice.
 
@@ -221,11 +250,37 @@ again in the remote machine, but you can do it from your VSCode app, just choosi
 
 # My experience
 
-...
+I was mad at Julia for installing conda in my laptop without me noticing, and I
+didn't want to mess my pc, so I decided to use this setup for it.
+
+Installing Julia gave me some trouble, as I tried many distros until I finally ended
+up using Arch:
+
+- Debian 12.5 didn't have the binary???
+- Debian 11 was too old for the packages I needed.
+- I didn't even bother with Ubuntu.
+- I tried alpine, but I couldn't get it configured quickly enough and I was really tired of trying. (Probably skill issues)
+
+Finally, I settled with Arch.
+
+Following the [Arch Wiki](https://wiki.archlinux.org/title/Julia) I installed Julia (`paru -S julia-bin`), and then the packages I needed (`sudo pacman -S python-scikit-learn`).
+I also installed `Flux` with `julia`'s package manager inside the REPL.
+
+I installed the `Julia` extension in VSCode and connected to the VM with the SSH extension.
+
+I cloned my repo and started working on it.
+
+Take into account that commits won't be signed unless you copy your keys to the VM,
+and that you'll need to add the VM's SSH key to your GitHub account in order to clone private repos.
 
 ## Some tips learned
 
-...
+Originally I was going to roast Julia in this section, but I have learned to bear with it.
+
+It has its benefits and it's quite quick after the first execution, so I'm mostly happy with it.
+
+I'm not sure if this covers all the things I wanted to say, but I think it's enough for now.
+For any questions, feel free to ask me, you can find my socials in the homepage.
 
 ---
 
