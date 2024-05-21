@@ -74,7 +74,7 @@ params:
   ShowCodeCopyButtons: true  # Show code copy (Not working?)
   ShowPostNavLinks: true    # Show post suggestions
   ShowReadingTime: true     # Show post reading time
-  ShowShareButtons: true    # Show social share buttons
+  ShowShareButtons: false    # Show social share buttons
   ShareButtons:             # Customize share buttons
     - twitter
     - whatsapp
