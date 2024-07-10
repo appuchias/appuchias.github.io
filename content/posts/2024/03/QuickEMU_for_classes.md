@@ -6,7 +6,7 @@ date: 2024-03-31
 lastmod: 2024-05-11
 categories:
   - Development
-  - Class
+  - Uni
 tags:
   - QuickEMU
   - SSH

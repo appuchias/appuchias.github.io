@@ -3,7 +3,7 @@ title: 'Endlessh: SSH Honeypot'
 description: 'Setting up a SSH honeypot to trap hackers'
 date: 2022-04-13
 categories:
-    - "Linux - 0 (newbie)"
+    - Linux
     - Server admin
 tags:
     - SSH
