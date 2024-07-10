@@ -163,7 +163,7 @@ function quickvm -d "Start a QuickEMU VM from anywhere"
 end
 ```
 
-> 2024-05-11: Here's the zsh equivalent for the function above:
+> 2024-05-11: Here's a zsh equivalent:
 > ```zsh
 > quickvm() {
 >     export vm_name=$argv[1]
