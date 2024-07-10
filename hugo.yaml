@@ -53,6 +53,7 @@ params:
   title: "Appu's blog"
   description: Where I post about various topics.
   draft:  # Add mark to draft posts
+  DateFormat: "2006-01-02"
 
   # Home page
   homeInfoParams:
