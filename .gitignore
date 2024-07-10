@@ -1,4 +1,5 @@
 .hugo_build.lock
 .obsidian
 
+content/posts/.towrite
 public/
