@@ -57,7 +57,7 @@ params:
 
   # Home page
   homeInfoParams:
-      Title: "Appu's blog"
+      Title: My writing space
       Content: Where I post about various topics.
 
   socialIcons:
@@ -87,7 +87,7 @@ params:
 
   # Page title
   label:
-    text: "Home"
+    text: "Appu's blog"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
