@@ -1,7 +1,7 @@
 # Basics
 title: "Appu's blog"
 baseURL: 'https://blog.appu.ltd/'
-paginate: 10
+pagination.pagerSize: 10
 languageCode: 'en-us'
 theme:
   - "PaperMod"
