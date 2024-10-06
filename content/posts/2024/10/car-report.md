@@ -4,15 +4,20 @@ description: 'My favorite app for tracking car expenses'
 author: Appuchia
 date: 2024-10-06T23:07:43+02:00
 categories:
-  - Changeme
+  - Development
+  - Cars
+  - Android
 tags:
-  - Changeme
+  - Reviews
+  - Utility
 cover:
     image: '/images/Car Report'
 draft: true
 ---
 
-# Car Report
+[Repo](https://bitbucket.org/frigus02/car-report/src/master/)
+
+## Car Report
 
 Car report is an app I found around 2 years ago in [F-droid](https://f-droid.org/).
 It is a simple app that helps you track your car expenses.
@@ -25,7 +30,7 @@ That wasn't a problem, as the app works and it doesn't depend on any service tha
 
 I now store all the refuelings, services and other expenses of 2 cars in the app, and back it up regularly to keep the data safe.
 
-# What happened?
+## What happened?
 
 The real reason I'm writing this post is that I found out that the app was removed from F-droid.
 
@@ -42,7 +47,7 @@ Luckily the site was archived in the [Wayback Machine](https://web.archive.org/w
 
 Anyways,
 
-# The APK
+## The APK
 
 I now have the APK available in these files: [Car Report 3.25.0 (79)](/files/me.kuehle.carreport_79.apk)
 
