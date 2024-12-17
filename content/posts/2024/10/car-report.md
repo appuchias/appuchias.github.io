@@ -2,7 +2,8 @@
 title: 'Car Report'
 description: 'My favorite app for tracking car expenses'
 author: Appuchia
-date: 2024-10-06T23:07:43+02:00
+date: 2024-10-06
+lastmod: 2024-12-17
 categories:
   - Development
   - Cars
@@ -12,7 +13,6 @@ tags:
   - Utility
 cover:
     image: '/images/Car Report'
-draft: true
 ---
 
 [Repo](https://bitbucket.org/frigus02/car-report/src/master/)
@@ -43,7 +43,8 @@ But the [metadata](https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/m
 Checking on the [F-droid blog](https://f-droid.org/en/2024/09/19/twif.html) I found that they had archived more than 300 outdated, broken or unmaintained apps from the store.
 (I just found out that they're still available in the archive repo, so this post is not that useful, but I'll keep it here for the record)
 
-Luckily the site was archived in the [Wayback Machine](https://web.archive.org/web/20240105141312/https://f-droid.org/en/packages/me.kuehle.carreport/), so the APK isn't lost.
+Luckily the site was archived in the [Wayback Machine](https://web.archive.org/web/20240105141312/https://f-droid.org/en/packages/me.kuehle.carreport/), so the APK isn't lost.[^1]
+[^1]: 2024-12-17 I later discovered that F-droid has an archive and the APK is still there, but this was already written, so it will stay here
 
 Anyways,
 
