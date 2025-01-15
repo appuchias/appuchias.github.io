@@ -40,6 +40,15 @@ This is specially useful if the program you use to sync your files doesn't updat
 However, dashes are useful as they make the cursor stop when you press `Ctrl` + `→` or `Ctrl` + `←` in most text editors and file browsers.
 So, I use dashes to separate the sections of the filenames.
 
+# Timezones
+
+PLEASE use UTC.
+
+It's neutral, doesn't have daylight saving time and you can expect it when you see a timestamp.
+
+Also, why did Windows decide to store the local time in the RTC? Store the UTC time and then see what the user's timezone is and convert it to the local time.
+Come on, it isn't that hard.
+
 ---
 
 Thanks for reading!
