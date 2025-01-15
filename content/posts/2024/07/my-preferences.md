@@ -49,6 +49,8 @@ It's neutral, doesn't have daylight saving time and you can expect it when you s
 Also, why did Windows decide to store the local time in the RTC? Store the UTC time and then see what the user's timezone is and convert it to the local time.
 Come on, it isn't that hard.
 
+# Comments
+
 ---
 
 Thanks for reading!
