@@ -3,7 +3,7 @@ title: 'SQLite configuration tips'
 desciption: 'Some tips for SQLite in prod'
 author: Appuchia
 date: 2024-01-20
-lastmod: 2024-05-11
+lastmod: 2025-01-17
 categories:
   - Development
 tags:
@@ -48,7 +48,7 @@ A one-liner with all settings will be [at the end]({{< ref "#one-liner" >}}).
 
 > ## Synchronous
 >
-> `PRAGMA synchronous=1;`
+> `PRAGMA synchronous=normal;`
 >
 > The default value of 2 (FULL) is not needed if WAL is enabled, and changing it
 > to 1 (NORMAL) improves speed while not losing safety.
@@ -70,6 +70,7 @@ A one-liner with all settings will be [at the end]({{< ref "#one-liner" >}}).
 >
 > SQLite does not enforce FKs by default, so this enables its enforcement as
 > it's highly recommended.
+> It will slightly reduce performance.
 >
 > Please use foreign keys.
 > 
@@ -80,15 +81,15 @@ A one-liner with all settings will be [at the end]({{< ref "#one-liner" >}}).
 For a database stored in `db.sqlite3`:
 
 ```shell
-sqlite3 db.sqlite3 "PRAGMA journal_mode=WAL; PRAGMA synchronous=1; PRAGMA busy_timeout=5000; PRAGMA foreign_keys=ON;"
+sqlite3 db.sqlite3 "PRAGMA journal_mode=WAL; PRAGMA synchronous=normal; PRAGMA busy_timeout=5000; PRAGMA foreign_keys=ON;"
 ```
 
 # Other important commands
 
 Some other useful commands that can be used in the SQLite shell:
 
-- `VACUUM;` - Rebuilds the DB file, useful to shrink it after deletions. (Reclaims disk space)
-- `ANALYZE;` - Updates the query planner's statistics.
+- `VACUUM;` - Rebuilds the DB file, useful to shrink it after deletions (reclaims disk space).
+- `PRAGMA optimize;` - Updates the query planner's statistics if needed ([PRAGMA docs](https://www.sqlite.org/pragma.html#pragma_optimize), [ANALYZE docs](https://sqlite.org/lang_analyze.html)).
 - `PRAGMA integrity_check;` - Checks the integrity of the DB.
 - `PRAGMA foreign_key_check;` - Checks the FK constraints.
 
