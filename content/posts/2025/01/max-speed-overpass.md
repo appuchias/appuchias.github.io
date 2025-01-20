@@ -20,8 +20,7 @@ tags:
 
 # The idea
 
-This video from a really nice channel I follow popped up on my YouTube feed,
-and I thought it was a really nice idea, and I thought showing the max speed as well as the current speed would be really useful.
+This video from a really nice channel I follow popped up on my YouTube feed, it was a neat idea, and I thought showing the max speed as well as the current speed would be really useful.
 
 {{< youtube RdmgdWnIlKY >}}
 
