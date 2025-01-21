@@ -111,7 +111,6 @@ getmaxspeed() {
 
 
     curl -fsSL -X POST 'https://overpass-api.de/api/interpreter' \
-        # -H "Content-Type: application/x-www-form-urlencoded" \
         -d "data=[out:json][timeout:5];way['highway']['maxspeed'](around:$radius,$lat,$lon);out;" \
     | jq -r ".elements[0].tags.maxspeed"
 }
