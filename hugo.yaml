@@ -55,6 +55,7 @@ languages:
     languageDirection: ltr
     languageName: Castellano
     params:
+      footer: Las opiniones expresadas son mías. No tienen por qué coincidir con las tuyas, y está bien así.
       homeInfoParam:
         Title: Mi espacio para escribir
         Content: Donde publico sobre diversos temas.
@@ -66,6 +67,7 @@ languages:
     languageDirection: ltr
     languageName: English
     params:
+      footer: All opinions expressed are mine. They may not match yours, and that's okay.
       homeInfoParams:
         Title: My writing space
         Content: Where I post about various topics.
