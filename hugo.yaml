@@ -84,7 +84,7 @@ params:
   subtitle: Where I post about various topics.
   description: Where I post about various topics.
   draft:  # Add mark to draft posts
-  DateFormat: "2006-01-02"
+  DateFormat: "2006-01-02" # 2 de enero de 2006
 
   # Home page
   homeInfoParams:
