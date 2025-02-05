@@ -2,7 +2,7 @@
 title: "Appu's blog"
 baseURL: 'https://blog.appu.ltd/'
 pagination.pagerSize: 10
-languageCode: 'en-us'
+# languageCode: 'en-us'
 theme:
   - "PaperMod"
   # - "plausible-hugo"
@@ -44,6 +44,34 @@ outputs:
     - JSON
 
 
+# Multilingual
+defaultContentLanguage: es
+defaultContentLanguageInSubdir: true
+languages:
+  es:
+    contentDir: content/es
+    disabled: false
+    languageCode: es-ES
+    languageDirection: ltr
+    languageName: Castellano
+    params:
+      homeInfoParam:
+        Title: Mi espacio para escribir
+        Content: Donde publico sobre diversos temas.
+    weight: 1
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    params:
+      homeInfoParams:
+        Title: My writing space
+        Content: Where I post about various topics.
+    weight: 2
+
+
 params:
   # General
   author: "Appuchia"
@@ -51,6 +79,7 @@ params:
     linkFullImages: true  # to set the image hyperlink to the highest quality available
   defaultTheme: auto  # to switch between dark or light according to browser theme
   title: "Appu's blog"
+  subtitle: Where I post about various topics.
   description: Where I post about various topics.
   draft:  # Add mark to draft posts
   DateFormat: "2006-01-02"
