@@ -1,6 +1,6 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
-    <span>All opinions expressed are mine. They may not match yours, and that's okay.</span>
+    <span>{{ site.Params.footer }}</span>
     <br>
 
     {{- if site.Copyright }}
