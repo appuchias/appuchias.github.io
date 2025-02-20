@@ -8,7 +8,6 @@ categories:
 tags:
   - AI
   - LLM
-draft: true
 ---
 
 Casi que no comento nada sobre qué son y esas cosas que se suelen poner de relleno
