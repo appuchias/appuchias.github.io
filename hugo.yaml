@@ -62,11 +62,11 @@ params:
 
   socialIcons:
       - name: "Github"
-        url: "https://github.com/appuchias"
+        url: "https://l.appu.ltd/github"
       - name: "Gitlab"
-        url: "https://gitlab.com/appuchia"
+        url: "https://l.appu.ltd/gitlab"
       - name: "Links"
-        url: "https://links.appu.ltd"
+        url: "https://info.appu.ltd"
       - name: "RSS"
         url: "/index.xml"
 
