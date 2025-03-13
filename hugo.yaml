@@ -87,7 +87,7 @@ params:
 
   # Page title
   label:
-    text: "Appu's blog"
+    text: "blog.appu"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
