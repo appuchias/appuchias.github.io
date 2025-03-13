@@ -3,6 +3,7 @@ title: 'The Mysterium dVPN'
 description: 'A way to monetize your spare bandwidth and earn some money back.'
 date: 2022-05-30
 categories:
+    - EN
     - Linux
     - Server admin
 tags:

@@ -5,6 +5,7 @@ author: Appuchia
 date: 2024-01-20
 lastmod: 2024-07-21
 categories:
+    - EN
     - Hardware
     - Software
     - Products

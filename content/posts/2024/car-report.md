@@ -5,14 +5,15 @@ author: Appuchia
 date: 2024-10-06
 lastmod: 2024-12-17
 categories:
-  - Development
-  - Cars
-  - Android
+    - EN
+    - Development
+    - Cars
+    - Android
 tags:
-  - Reviews
-  - Utility
-cover:
-    image: '/images/Car Report'
+    - Reviews
+    - Utility
+# cover:
+#     image: '/images/Car Report'
 ---
 
 [Repo](https://bitbucket.org/frigus02/car-report/src/master/)

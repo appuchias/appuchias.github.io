@@ -4,6 +4,7 @@ description: A review based in around a month of use
 date: 2023-11-21
 lastmod: 2024-01-23
 categories:
+    - EN
     - Products
 tags:
     - Reviews

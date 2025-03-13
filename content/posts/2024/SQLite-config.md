@@ -5,9 +5,10 @@ author: Appuchia
 date: 2024-01-20
 lastmod: 2025-01-17
 categories:
-  - Development
+    - EN
+    - Development
 tags:
-  - DB
+    - DB
 #cover:
 #    image: '/images/2024 01 20_SQLite Config'
 ---

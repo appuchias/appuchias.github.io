@@ -5,12 +5,13 @@ author: Appuchia
 date: 2024-03-31
 lastmod: 2024-05-11
 categories:
-  - Development
-  - Uni
+    - EN
+    - Development
+    - Uni
 tags:
-  - QuickEMU
-  - SSH
-  - VSCode
+    - QuickEMU
+    - SSH
+    - VSCode
 # cover:
 #     image: '/images/2024 03 31_QuickEMU_for_classes'
 ---

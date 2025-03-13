@@ -4,6 +4,7 @@ description: 'Publicando mis dotfiles'
 author: Appuchia
 date: 2025-02-28
 categories:
+  - ES
   - Linux
 tags:
   - Configuration

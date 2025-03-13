@@ -4,6 +4,7 @@ description: 'Mis opiniones una vez más y (más concretamente sobre los LLMs) c
 author: Appuchia
 date: 2025-02-10
 categories:
+  - ES
   - Opinion
 tags:
   - AI

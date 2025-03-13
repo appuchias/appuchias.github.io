@@ -4,6 +4,7 @@ description: 'A random small project done the day before an exam'
 author: Appuchia
 date: 2025-01-20
 categories:
+    - EN
     - Linux
     - Cars
     - API

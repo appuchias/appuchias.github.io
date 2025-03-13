@@ -3,6 +3,7 @@ title: 'Protecting your server'
 description: 'General practices to avoid the most common and easiest attacks by patching the most common vulnerabilities.'
 date: 2022-05-19
 categories:
+    - EN
     - Linux
     - Server admin
 tags:
