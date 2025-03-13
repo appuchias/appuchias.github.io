@@ -7,8 +7,8 @@ categories:
   - Changeme
 tags:
   - Changeme
-cover:
-    image: '/images/{{ replace .File.ContentBaseName "-" " " | title }}'
+# cover:
+#     image: '/images/{{ replace .File.ContentBaseName "-" " " | title }}'
 draft: true
 ---
 
