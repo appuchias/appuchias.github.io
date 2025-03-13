@@ -27,10 +27,10 @@ menu:
     - name: Tags
       url: tags/
       weight: 4
-    - identifier: web
-      name: Main website
-      url: https://appu.ltd/
-      weight: 5
+    # - identifier: web
+    #   name: Main website
+    #   url: https://appu.ltd/
+    #   weight: 5
 
 module:
   imports:
@@ -100,13 +100,4 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-
-  # Plausible
-  plausible:
-    enable: true
-    domain: "blog.appu.ltd"
-    selfhosted_domain: "plausible.appu.ltd"
-    outbound_link: true
-    gitstar: false
-    debug: false
 
