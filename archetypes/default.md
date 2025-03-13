@@ -16,6 +16,6 @@ draft: true
 
 ---
 
-Thanks for reading!
+Gracias por leerme!
 
-Done with 🖤 by Appu.
+Hecho con 🖤 por Appu.

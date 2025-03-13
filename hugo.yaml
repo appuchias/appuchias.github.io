@@ -2,7 +2,7 @@
 title: "Appu's blog"
 baseURL: 'https://blog.appu.ltd/'
 pagination.pagerSize: 10
-languageCode: 'en-us'
+languageCode: 'es-ES'
 theme:
   - "PaperMod"
   # - "plausible-hugo"
@@ -51,14 +51,14 @@ params:
     linkFullImages: true  # to set the image hyperlink to the highest quality available
   defaultTheme: auto  # to switch between dark or light according to browser theme
   title: "Appu's blog"
-  description: Where I post about various topics.
+  description: Mi espacio para escribir
   draft:  # Add mark to draft posts
   DateFormat: "2006-01-02"
 
   # Home page
   homeInfoParams:
-      Title: My writing space
-      Content: Where I post about various topics.
+      Title: Mi esquina de internet
+      Content: Un pequeño espacio para escribir
 
   socialIcons:
       - name: "Github"
