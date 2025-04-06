@@ -1,8 +1,9 @@
 ---
-title: 'Mi razonamiento sobre "las IAs"'
-description: 'Mis opiniones una vez más y (más concretamente sobre los LLMs) cuándo considero que usarlos es positivo'
+title: Mi razonamiento sobre "las IAs"
+description: Mis opiniones una vez más y (más concretamente sobre los LLMs) cuándo considero que usarlos es positivo
 author: Appuchia
 date: 2025-02-10
+lastmod: 2025-04-06
 categories:
   - ES
   - Opinion
@@ -10,6 +11,7 @@ tags:
   - AI
   - LLM
 ---
+> Post actualizado a 2025-04-06. Nueva sección al final
 
 Casi que no comento nada sobre qué son y esas cosas que se suelen poner de relleno
 al principio de las publicaciones para retener más a la gente, a estas alturas
@@ -306,6 +308,16 @@ No creo que las IAs se vayan a ir al menos a corto plazo, así que soy de la opi
 de que es mejor entenderlas, saber usarlas y sacarles todo el beneficio posible. \
 Pero me parece aún más importante recordar que son una herramienta más, igual que
 muchas otras, y no tiene que condicionar tu forma de trabajar ni restringir tu avance.
+
+# Más vídeos
+
+Dejo esta sección al final para seguir mencionando algún vídeo que recomiende ver sobre el tema de los que me vayan surgiendo.
+Iré actualizando la fecha de última modificación según añada nuevos vídeos.
+
+1. https://www.youtube.com/watch?v=riyh_CIshTs
+	{{< youtube riyh_CIshTs >}}
+2. https://www.youtube.com/watch?v=y3_TY4K8hVE
+	{{< youtube y3_TY4K8hVE >}}
 
 ---
 
