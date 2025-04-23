@@ -8,6 +8,6 @@ This is my personal blog. Nothing more, nothing less.
 
 This project is licensed under the [GPLv3 license](https://github.com/appuchias/appuchias.github.io/blob/master/LICENSE).
 
-The posts in this project (found in `content/posts/*.md`) are licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The posts in this project (found in `content/**/*.md`) are licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 Coded with 🖤 by Appu
