@@ -1,6 +1,6 @@
 ---
-title: 'Mis dotfiles'
-description: 'Publicando mis dotfiles'
+title: Mis dotfiles
+description: Publicando mis dotfiles
 author: Appuchia
 date: 2025-02-28
 categories:
@@ -8,10 +8,7 @@ categories:
   - Linux
 tags:
   - Configuration
-  - Development
   - Stow
-# cover:
-#     image: '/images/Dotfiles'
 ---
 
 ## Hago públicos mis "dotfiles"
