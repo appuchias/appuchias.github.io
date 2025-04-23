@@ -3,6 +3,7 @@ title: Mis dotfiles
 description: Publicando mis dotfiles
 author: Appuchia
 date: 2025-02-28
+lastmod: 2025-04-23
 categories:
   - ES
   - Linux
@@ -10,6 +11,7 @@ tags:
   - Configuration
   - Stow
 ---
+> Post actualizado a 2025-04-23 con el enlace al post de stow.
 
 ## Hago públicos mis "dotfiles"
 
@@ -93,6 +95,9 @@ De todas formas, si lo vas a usar busca más info por ahí o léete `man stow`.
 Tengo intención de escribir otro post entrando más en detalle en cómo usar stow y
 mi "workflow" con estas cosas, pero de momento solo está este. \
 Cuando lo publique estará aquí ↴
+
+El post con mi uso de stow:
+https://blog.appu.ltd/posts/2025/stow/
 
 ## Conclusiones
 
