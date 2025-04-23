@@ -5,9 +5,9 @@ author: Appuchia
 date: 2025-04-06
 categories:
   - ES
+  - Development
 tags:
-  - Afternoon
-  - project
+  - Afternoon project
 ---
 Buenas de nuevo.
 
