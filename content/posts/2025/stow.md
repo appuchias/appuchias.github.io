@@ -58,7 +58,7 @@ Para los ejemplos usaré esta estructura de archivos
 ```
 
 > Puedes recrearla ejecutando lo siguiente desde la raíz de tu usuario:
-> ```
+> ```shell
 > mkdir stow && cd stow
 > mkdir -p dir{1,2/dir3}
 > touch dir1/{file1.txt,file2.png} dir2/file4.md dir2/dir3/file3.sh file5.conf
