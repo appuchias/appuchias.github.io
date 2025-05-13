@@ -3,7 +3,7 @@ title: Mi razonamiento sobre "las IAs"
 description: Mis opiniones una vez más y (más concretamente sobre los LLMs) cuándo considero que usarlos es positivo
 author: Appuchia
 date: 2025-02-10
-lastmod: 2025-04-06
+lastmod: 2025-05-13
 categories:
   - ES
   - Opinion
@@ -12,6 +12,7 @@ tags:
   - LLM
 ---
 > Post actualizado a 2025-04-06. Nueva sección al final
+> Post actualizado a 2025-05-13. Cambio en algún encabezado y ejemplo
 
 Casi que no comento nada sobre qué son y esas cosas que se suelen poner de relleno
 al principio de las publicaciones para retener más a la gente, a estas alturas
@@ -72,7 +73,7 @@ de CO2 a 5 depósitos de gasolina, que, en caso de ser cierto, es una absoluta b
 y completamente insostenible.
 Si encuentro la fuente la añadiré también, que no me gusta dejar cosas sin documentar.
 
-#### De uso
+#### Humana
 
 Por otro lado, me preocupa la eficiencia al usarlos, ahora se está normalizando el
 hacerle una consulta y esperar pacientemente a que devuelva una respuesta no
@@ -256,6 +257,8 @@ que son siempre idénticas:
 class Sedan(Coche):
   def __init__(self, puertas: int = 5):  # Por ejemplo
     super().__init__()
+
+    self.puertas = puertas
 
     ...
 ```
