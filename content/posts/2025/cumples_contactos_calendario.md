@@ -5,6 +5,7 @@ author: Appuchia
 date: 2025-04-06
 categories:
   - ES
+  - Software
 tags:
   - Afternoon
   - project

@@ -1,17 +1,17 @@
 ---
-title: 'The Mysterium dVPN'
-description: 'A way to monetize your spare bandwidth and earn some money back.'
+title: The Mysterium dVPN
+description: A way to monetize your spare bandwidth and earn some money back.
 date: 2022-05-30
 categories:
-    - EN
-    - Linux
-    - Server admin
+  - EN
+  - Linux
 tags:
-    - Utility
-    - Blockchain
-    - VPN
+  - Utility
+  - Blockchain
+  - VPN
+  - Server
 cover:
-    image: /images/2022-05-30_mysterium-dvpn/myst.jpg
+  image: /images/2022-05-30_mysterium-dvpn/myst.jpg
 ---
 
 In the last days I set up a node of a decentralized VPN using the Mysterium network. This was mainly to get profits from the Internet bandwidth I don't use and to help provide freedom of speech for those who need it.

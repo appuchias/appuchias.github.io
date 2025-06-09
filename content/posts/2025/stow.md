@@ -5,7 +5,10 @@ author: Appuchia
 date: 2025-04-14
 categories:
   - ES
-tags: []
+  - Linux
+  - Software
+tags:
+  - Stow
 draft: true
 ---
 

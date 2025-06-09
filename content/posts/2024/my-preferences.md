@@ -4,11 +4,10 @@ description: 'My opinions on some aspects. Will be updated.'
 author: Appuchia
 date: 2024-07-21
 categories:
-    - EN
-    - Software
-    - Development
-    - Tools
-    - Linux
+  - EN
+  - Software
+  - Opinion
+  - Linux
 tags:
     - Utility
 draft: true

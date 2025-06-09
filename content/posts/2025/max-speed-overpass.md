@@ -1,22 +1,19 @@
 ---
-title: 'Getting the max speed of a way using Overpass API'
-description: 'A random small project done the day before an exam'
+title: Getting the max speed of a way using Overpass API
+description: A random small project done the day before an exam
 author: Appuchia
 date: 2025-01-20
 categories:
-    - EN
-    - Linux
-    - Cars
-    - API
-    - Development
-    - OSM
+  - EN
+  - Linux
+  - Cars
+  - OSM
 tags:
-    - Overpass
-    - Learning
-    - Utility
-    - Afternoon project
-# cover:
-#     image: '/images/Max Speed Overpass'
+  - Overpass
+  - Learning
+  - Utility
+  - Afternoon
+  - project
 ---
 
 # The idea

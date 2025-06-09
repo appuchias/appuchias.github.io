@@ -1,22 +1,22 @@
 ---
-title: 'Creating my own "OBD-II reader" to access the CAN bus of a car'
-description: "Because I wanted to and many interesting things can be done with it."
+title: Creating my own "OBD-II reader" to access the CAN bus of a car
+description: Because I wanted to and many interesting things can be done with it.
 author: Appuchia
 date: 2024-01-20
 lastmod: 2024-07-21
 categories:
-    - EN
-    - Hardware
-    - Software
-    - Products
-    - Cars
+  - EN
+  - Hardware
+  - Software
+  - Cars
+  - Vectra
 tags:
-    - Learning
-    - Utility
-    - CAN-OBD
+  - Learning
+  - Utility
+  - CAN-OBD
 cover:
-    image: '/images/2024-01-20_CAN-OBD/kumpan-electric-sNQ4EnbT980-unsplash.jpg'
-    caption: "Photo by [Kumpan Electric](https://unsplash.com/@kumpan_electric) on [Unsplash](https://unsplash.com/photos/white-and-blue-charger-adapter-sNQ4EnbT980)"
+  image: /images/2024-01-20_CAN-OBD/kumpan-electric-sNQ4EnbT980-unsplash.jpg
+  caption: Photo by [Kumpan Electric](https://unsplash.com/@kumpan_electric) on [Unsplash](https://unsplash.com/photos/white-and-blue-charger-adapter-sNQ4EnbT980)
 ---
 
 This post will cover my attempt of building a completely open way to read the

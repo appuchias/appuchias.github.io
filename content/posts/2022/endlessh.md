@@ -1,17 +1,17 @@
 ---
-title: 'Endlessh: SSH Honeypot'
-description: 'Setting up a SSH honeypot to trap hackers'
+title: "Endlessh: SSH Honeypot"
+description: Setting up a SSH honeypot to trap hackers
 date: 2022-04-13
 categories:
-    - EN
-    - Linux
-    - Server admin
+  - EN
+  - Linux
 tags:
-    - SSH
-    - Utility
-    - Protection
+  - SSH
+  - Utility
+  - Protection
+  - Server
 cover:
-    image: '/images/2022-04-13_endlessh/skeeto_endlessh.png'
+  image: /images/2022-04-13_endlessh/skeeto_endlessh.png
 ---
 
 ## What's this
