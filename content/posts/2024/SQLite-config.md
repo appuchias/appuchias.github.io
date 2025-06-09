@@ -1,16 +1,15 @@
 ---
-title: 'SQLite configuration tips'
-desciption: 'Some tips for SQLite in prod'
+title: SQLite configuration tips
+desciption: Some tips for SQLite in prod
 author: Appuchia
 date: 2024-01-20
 lastmod: 2025-01-17
 categories:
-    - EN
-    - Development
+  - EN
+  - Software
+  - Linux
 tags:
-    - DB
-#cover:
-#    image: '/images/2024 01 20_SQLite Config'
+  - DB
 ---
 
 This post covers some settings I have discovered about SQLite these days that

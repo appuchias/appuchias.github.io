@@ -1,16 +1,16 @@
 ---
-title: 'Protecting your server'
-description: 'General practices to avoid the most common and easiest attacks by patching the most common vulnerabilities.'
+title: Protecting your server
+description: General practices to avoid the most common and easiest attacks by patching the most common vulnerabilities.
 date: 2022-05-19
 categories:
-    - EN
-    - Linux
-    - Server admin
+  - EN
+  - Linux
 tags:
-    - Advice
-    - Protection
+  - Advice
+  - Protection
+  - Server
 cover:
-    image: '/images/2022-05-19_protecting-your-server/firewall.png'
+  image: /images/2022-05-19_protecting-your-server/firewall.png
 ---
 
 I recently watched a NetworkChuck's video where he explained how to protect your linux server (Dedicated to Ubuntu, but I plan on covering more than just that distro), so I thought that I could do some sort of writeup of the video as well as extend the info that is shown in it.

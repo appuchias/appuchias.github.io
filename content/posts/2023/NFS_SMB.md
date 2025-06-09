@@ -1,13 +1,13 @@
 ---
-title: 'NFS and SMB shares'
-description: 'Creating and mounting NFS and SMB shares in Linux'
+title: NFS and SMB shares
+description: Creating and mounting NFS and SMB shares in Linux
 date: 2023-11-06
 categories:
-    - EN
-    - Linux
-    - Server admin
+  - EN
+  - Linux
 tags:
-    - Utility
+  - Utility
+  - Server
 ---
 
 Creating a NFS share is quite easy, and it's a fast way to share files between Linux hosts, and apparently even with recent Windows machines (untested).

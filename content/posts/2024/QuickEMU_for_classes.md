@@ -1,19 +1,17 @@
 ---
-title: 'QuickEMU+SSH for school-related projects'
-description: 'Install what you need without messing up your OS'
+title: QuickEMU+SSH for school-related projects
+description: Install what you need without messing up your OS
 author: Appuchia
 date: 2024-03-31
 lastmod: 2024-05-11
 categories:
-    - EN
-    - Development
-    - Uni
+  - EN
+  - Uni
 tags:
-    - QuickEMU
-    - SSH
-    - VSCode
-# cover:
-#     image: '/images/2024 03 31_QuickEMU_for_classes'
+  - QuickEMU
+  - SSH
+  - VSCode
+  - Development
 ---
 
 I recently had to install some software in my computer that I knew would mess

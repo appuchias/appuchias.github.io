@@ -6,7 +6,6 @@ date: 2024-07-21
 categories:
   - EN
   - Software
-  - Development
   - Opinion
   - Linux
 tags:

@@ -1,19 +1,16 @@
 ---
-title: 'Car Report'
-description: 'My favorite app for tracking car expenses'
+title: Car Report
+description: My favorite app for tracking car expenses
 author: Appuchia
 date: 2024-10-06
 lastmod: 2024-12-17
 categories:
-    - EN
-    - Development
-    - Cars
-    - Android
+  - EN
+  - Cars
+  - Android
 tags:
-    - Reviews
-    - Utility
-# cover:
-#     image: '/images/Car Report'
+  - Reviews
+  - Utility
 ---
 
 [Repo](https://bitbucket.org/frigus02/car-report/src/master/)
