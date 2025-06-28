@@ -7,7 +7,7 @@ categories:
   - ES
   - Software
 tags:
-  - Afternoon project
+  - Afternoon
 ---
 Buenas de nuevo.
 

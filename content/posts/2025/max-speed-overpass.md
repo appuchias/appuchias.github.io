@@ -13,7 +13,6 @@ tags:
   - Learning
   - Utility
   - Afternoon
-  - project
 ---
 
 # The idea
