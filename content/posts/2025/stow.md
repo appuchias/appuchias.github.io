@@ -144,7 +144,7 @@ Si quieres usar stow para tener tus dotfiles en un repositorio, te interesará q
 
 Puedes incluir un archivo `.stow-local-ignore` en la raíz de tu carpeta de stow en el que indicar los patrones que debe ignorar.
 Tienes un archivo de ejemplo [aquí](https://www.gnu.org/software/stow/manual/html_node/Types-And-Syntax-Of-Ignore-Lists.html) o usando `info stow` en la sección 4.2.
-Lo más probable es que tenga todo lo que necesites, pero puedes añadit cuanto quieras, en ambos recursos tienes la documentación para la sintaxis que usar.
+Lo más probable es que tenga todo lo que necesites, pero puedes añadir cuanto quieras, en ambos recursos tienes la documentación para la sintaxis que usar.
 
 ## Otras opciones
 
