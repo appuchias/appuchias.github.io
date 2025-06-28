@@ -71,8 +71,10 @@ params:
         url: "/index.xml"
 
   # Display toggles
+  HideAuthor: true
   ShowBreadCrumbs: true     # Show post nesting
   ShowCodeCopyButtons: true  # Show code copy (Not working?)
+  ShowLastMod: true
   ShowPostNavLinks: true    # Show post suggestions
   ShowReadingTime: true     # Show post reading time
   ShowShareButtons: false    # Show social share buttons
@@ -80,6 +82,7 @@ params:
     - twitter
     - whatsapp
     - telegram
+  ShowWordCount: false
 
   # ToC
   showtoc: true

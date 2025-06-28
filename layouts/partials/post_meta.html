@@ -10,7 +10,7 @@
 {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
 {{- end }}
 
-{{- if ne $lastmod $date -}}
+{{- if and (ne $lastmod $date) (.Param "ShowLastMod") -}}
 {{- $scratch.Add "meta" (slice (printf "<span title='%s'>(updated %s)</span>" (.Lastmod) (.Lastmod | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
 {{- end }}
 
@@ -19,7 +19,7 @@
 {{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
 {{- end }}
 
-{{- if not (.Param "hideAuthor") -}}
+{{- if not (.Param "HideAuthor") -}}
 {{- with (partial "author.html" .) }}
 {{- $scratch.Add "meta" (slice .) }}
 {{- end }}
