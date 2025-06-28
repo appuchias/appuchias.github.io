@@ -4,13 +4,13 @@ summary: A review based in around a month of use
 date: 2023-11-21
 lastmod: 2024-01-23
 categories:
-    - EN
-    - Products
+  - EN
+  - Products
 tags:
-    - Reviews
-    - Utility
+  - Reviews
+  - Utility
 cover:
-    image: '/images/2023-11-21_msi_prestige/laptop-side.png'
+  image: /images/2023-11-21_msi_prestige/laptop-side.png
 ---
 
 I recently bought this laptop and I wanted to test it to see if it fitted me, so I thought I would publish the results in case it helps anyone with their decisions.
