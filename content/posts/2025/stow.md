@@ -38,11 +38,7 @@ O en Debian y derivados:
 sudo apt install stow
 ```
 
-<<<<<<< HEAD
 # Uso básico
-=======
-# Uso
->>>>>>> writing
 
 La forma de operar de stow es quizá al revés de como la imaginas.
 
@@ -62,7 +58,6 @@ Para los ejemplos usaré esta estructura de archivos
 └─ file5.conf
 ```
 
-<<<<<<< HEAD
 > Puedes recrearla ejecutando lo siguiente desde la raíz de tu usuario:
 > ```shell
 > mkdir stow && cd stow
@@ -80,35 +75,13 @@ stow -t ~/projects -S .
 - `.` indica la ruta actual.
 
 Y stow crearía los siguientes enlaces:
-=======
-## Gestión de enlaces
-
-Por ejemplo, para la siguiente estructura en el directorio de stow:
-```txt
-/home/appu/stow
-├─ dir1
-│  ├─ file1.txt
-│  └─ file2.png
-├─ dir2
-│  ├─ dir3
-│  │  └─ file3.sh
-│  └─ file4.md
-└─ file5.conf
-```
-
-Si la recreases en `/home/appu/projects`, crearía los siguientes enlaces:
->>>>>>> writing
 ```txt
 /home/appu/projects/dir1/ -> ../stow/dir1
 /home/appu/projects/dir2/ -> ../stow/dir2
 /home/appu/projects/file5.conf -> ../stow/file5.conf
 ```
 
-<<<<<<< HEAD
 Pero si se da el caso de que `dir2` existe ya en `projects` y contiene un archivo que stow no incluye en la estructura del paquete que le indicas, crearía los siguientes enlaces:
-=======
-Pero si se da el caso de que `dir2` existe ya en `projects` y contiene un archivo que stow no conoce, crearía los siguientes enlaces:
->>>>>>> writing
 ```txt
 /home/appu/projects/dir1/ -> ../stow/dir1
 /home/appu/projects/dir2/dir3 -> ../stow/dir2/dir3
@@ -117,7 +90,6 @@ Pero si se da el caso de que `dir2` existe ya en `projects` y contiene un archiv
 ```
 Y de esta forma respetaría los archivos ya existentes, pero crearía todos los enlaces necesarios.
 
-<<<<<<< HEAD
 # Más funcionalidad
 
 ## Si te cansas
@@ -142,7 +114,7 @@ stow -d ~/stow -t ~/projects -S .
 ```
 
 Si te sorprende que hasta ahora el comando no haya devuelto ninguna salida, es porque no se le ha pedido, con `-v` mostrará los enlaces creados y eliminados.
-Por ejemplo: 
+Por ejemplo:
 ```txt /home/appu/stow
 ❯ stow -v -t ~/projects -S .
 LINK: dir1 => ../stow/dir1
@@ -195,8 +167,6 @@ Como siempre, si se te complica puedes contactarme por donde prefieras, tienes e
 
 P.D.: Al terminar de escribir el post encontré este otro por ahí y tiene buena pinta, por si también le quieres echar un ojo: https://tamerlan.dev/how-i-manage-my-dotfiles-using-gnu-stow/
 
-=======
->>>>>>> writing
 ---
 
 Gracias por leerme!
