@@ -1,6 +1,6 @@
 ---
 title: Cumpleaños de contactos a calendario
-description: Sincroniza los cumpleaños de tus contactos a un calendario. 100% local.
+summary: Sincroniza los cumpleaños de tus contactos a un calendario. 100% local.
 author: Appuchia
 date: 2025-04-06
 categories:

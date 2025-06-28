@@ -1,6 +1,6 @@
 ---
 title: Mis dotfiles
-description: Publicando mis dotfiles
+summary: Publicando mis dotfiles
 author: Appuchia
 date: 2025-02-28
 lastmod: 2025-04-23

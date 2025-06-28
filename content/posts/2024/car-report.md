@@ -1,6 +1,6 @@
 ---
 title: Car Report
-description: My favorite app for tracking car expenses
+summary: My favorite app for tracking car expenses
 author: Appuchia
 date: 2024-10-06
 lastmod: 2024-12-17

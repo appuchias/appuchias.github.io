@@ -1,6 +1,6 @@
 ---
 title: Mi razonamiento sobre "las IAs"
-description: Mis opiniones una vez más y (más concretamente sobre los LLMs) cuándo considero que usarlos es positivo
+summary: Mis opiniones una vez más y cuándo considero que usar LLMs es positivo
 author: Appuchia
 date: 2025-02-10
 lastmod: 2025-05-13

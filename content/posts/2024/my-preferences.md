@@ -1,6 +1,6 @@
 ---
 title: My preferences
-description: My opinions on some aspects. Will be updated.
+summary: My opinions on some aspects. Will be updated.
 author: Appuchia
 date: 2024-07-21
 categories:

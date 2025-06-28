@@ -1,6 +1,6 @@
 ---
 title: Creating my own "OBD-II reader" to access the CAN bus of a car
-description: Because I wanted to and many interesting things can be done with it.
+summary: Because I wanted to and many interesting things can be done with it.
 author: Appuchia
 date: 2024-01-20
 lastmod: 2024-07-21

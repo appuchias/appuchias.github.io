@@ -1,6 +1,6 @@
 ---
 title: Gestionando dotfiles con stow
-description: Cómo usar stow para gestionar tus dotfiles u otros enlaces
+summary: Cómo usar stow para gestionar tus dotfiles u otros enlaces
 author: Appuchia
 date: 2025-04-23
 categories:

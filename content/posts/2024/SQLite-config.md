@@ -1,6 +1,6 @@
 ---
 title: SQLite configuration tips
-desciption: Some tips for SQLite in prod
+summary: Some tips for SQLite in prod
 author: Appuchia
 date: 2024-01-20
 lastmod: 2025-01-17

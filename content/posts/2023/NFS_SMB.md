@@ -1,6 +1,6 @@
 ---
 title: NFS and SMB shares
-description: Creating and mounting NFS and SMB shares in Linux
+summary: Creating and mounting NFS and SMB shares in Linux
 date: 2023-11-06
 categories:
   - EN
