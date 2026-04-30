@@ -1,5 +1,9 @@
 # Appu's blog [![GPLv3 license](https://img.shields.io/github/license/appuchias/appuchias.github.io?style=flat-square)](https://github.com/appuchias/appuchias.github.io/blob/master/LICENSE) [![Author](https://img.shields.io/badge/Project%20by-Appu-9cf?style=flat-square)](https://github.com/appuchias) ![Size](https://img.shields.io/github/repo-size/appuchias/appuchias.github.io?color=orange&style=flat-square)
 
+> [!WARNING]  
+> El contenido de este repositorio ahora solo se actualiza en mi fergejo.
+> Esta versión coincide con lo que hay en la url del repo, pero no es lo más actualizado.
+
 ## **How it works**
 
 This is my personal blog. Nothing more, nothing less.
